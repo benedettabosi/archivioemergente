@@ -1,0 +1,109 @@
+html, body
+{
+height: 100%;
+}
+
+header {
+    background-color: black;
+    height: 10% !important;
+    max-width: 100%;
+    display: flex;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+  
+}
+
+h1 {
+    font-family: 'Schoolbell', cursive;
+    font-size: 80px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px black;
+    filter:DropShadow(Color=#000000, OffX=2, OffY=2);
+    
+}
+
+#sudinoi {
+    height: 20% !important;
+    background-color: #9067C6;
+    padding-top: 3%;
+
+    
+   
+}
+
+
+.cream {
+    background-color: #9067C6;
+    padding-top: 0;
+    padding-bottom: 2rem;
+}
+
+.card {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+.card-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-bottom-right-radius: 0px;
+
+}
+
+.card-title {
+    text-align: start;
+}
+
+.card-text {
+    text-align: start;
+    
+}
+
+#tronco {
+    width: 7%;
+    height: auto;
+  }
+
+  button {
+    background-color: #9067C6 !important ;
+    border: none !important;
+  }
+  
+  button:hover {
+    background-color: black !important;
+  }
+  
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+}
+body {
+    text-align: center !important;
+    font-family: 'Hanuman', serif;
+}
+
+
+
+#firstsection {
+align-items: flex-start;
+ background-color: #9067C6;
+ padding-bottom: 5%;
+}

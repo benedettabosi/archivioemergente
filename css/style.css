@@ -1,0 +1,298 @@
+html, body
+{
+height: 100%;
+}
+
+header {
+    background-color: black;
+    height: 10% !important;
+    max-width: 100%;
+    display: flex;
+    
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    padding-left: 2%;
+    padding-right: 2%;
+    
+  
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-shadow: 2px 2px 4px rgb(255, 255, 255);
+  filter:DropShadow(Color=#ffffff, OffX=2, OffY=2);
+}
+
+#scoprigliartisti:hover {
+  background-color: #000000;
+}
+
+#esplora {
+  background-color: #000000;
+}
+
+#tronco {
+  width: 7%;
+  height: auto;
+}
+
+
+button {
+  background-color: #9067C6 !important ;
+  border: none !important;
+}
+
+button:hover {
+  background-color: black !important;
+}
+
+
+path:hover{
+  fill: #9067C6;
+}
+path.selected{
+  fill: #fff!important;
+}
+.regione{
+  transition: all 200ms ease-in-out;
+  fill: #4d336f;
+}
+
+#scopri {
+  padding: 5%;
+}
+
+
+
+svg {
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  #scopri .custom-column {
+    margin-bottom: 20px;
+  }
+
+  
+}
+
+  
+
+.seleziona {
+    outline: none;
+}
+
+.seleziona:hover, .seleziona:active {
+    outline: 2px black;
+}
+
+
+#playlist {
+  height: auto;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 1%;
+  padding-top: 7%;
+  margin: 0%;
+  background-image: url(imgregioni/playlist.jpg);
+  background-size: cover;
+
+}
+
+.playlist-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
+.playlist {
+  flex-basis: 30%;
+  
+}
+
+
+@media (max-width: 767px) {
+  /* Imposta il layout per smartphone */
+  .playlist-grid {
+    display: block;
+  }
+  
+  .playlist {
+    margin-bottom: 20px;
+  }
+}
+
+
+
+
+#contattini {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    
+    
+}
+
+#contatti {
+    width: 80%;
+    max-width: 100%;
+}
+
+
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0%;
+}
+
+
+
+
+
+h1 {
+    font-family: 'Schoolbell', cursive;
+    font-size: 90px;
+    color: white;
+      text-shadow: 2px 2px 4px black;
+      filter:DropShadow(Color=#000000, OffX=2, OffY=2);
+    
+}
+
+body {
+    text-align: center !important;
+    font-family: 'Hanuman', serif;
+}
+
+
+
+
+#home {
+    height: 90% !important;
+    background-image: url(imgregioni/copertina.jpg);
+    background-size: cover;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 ; 
+    padding: 0 ;
+    box-sizing: border-box;
+    height: 100vh ;
+}
+
+
+
+
+.alcentro {
+    text-align: center;
+}
+
+
+
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #9067C6;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #000000;
+  }
+  
+  /* Style the container/contact section */
+  #contatti {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+      max-width: 100%;
+    }
+  }
+
+  #artist {
+    border-radius: 5px;
+  }
+
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 50px;
+    }
+
+   
+  }
+
+  .back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    padding: 10px 15px;
+    background-color: #9067C6;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    
+    z-index: 999;
+  }
+
+  .back-to-top:hover {
+    color: white;
+    text-decoration: none;
+    background-color: #000000;
+  }
+  
+  .back-to-top.show {
+    display: block;
+  }
+  
+
+  

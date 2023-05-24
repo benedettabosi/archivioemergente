@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Archivio Emergente: Documentazione</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ffb9b10965.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanuman&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet">
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+     <script>$('.regione').on('click',function(){
+      $('.regione').removeClass('selected');
+      $(this).addClass('selected'); 
+      console.log($(this).data('nome-regione')); 
+    });</script>
+     <link rel="stylesheet" href="css/documentazione.css">
+</head>
+
+<body>
+    <a href="#documentazione" class="back-to-top"><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></a>
+
+    <header id="header">
+        <div class="header">
+            <img id="tronco" src="img/logo.png" alt="none" >
+            <nav id="menu">
+              <div class="btn-group">
+                <button id="esplora" type="button" class="btn btn-dark btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Documentazione
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item" href="index.html">Home</a>
+                  <a class="dropdown-item" href="index.html#scopri">Scopri gli artisti</a>
+                  <a class="dropdown-item" href="index.html#playlist">Playlist</a>
+                  <a class="dropdown-item" href="index.html#contatti">Contatti</a>
+                  <a class="dropdown-item" href="aboutus.html">Su di noi</a>
+                  <a class="dropdown-item" href="crediti.html">Crediti</a>
+                </div>
+              </div>
+            </div>
+            </nav>
+        </div>
+       </header>
+
+       <section id="documentazione"><h1>Documentazione</h1></section>
+       
+        <section id="firstsection">
+            <div class="cream">
+             <div class="container">
+               <div class="row g-5 justify-content-evenly">
+                 <div class="col-lg-12">
+                   <div class="card shadow rounded">
+                     <div class="row g-0 align-items-center">
+                       
+                         <div class="card-body d-flex flex-column align-items-center">
+                             <h2 class="card-text mb-5 mr-4 ml-4">Abstract</h2>
+                             <p class="card-text mb-5 mr-4 ml-4"> 
+                                Archivio Emergente è un archivio online di artisti italiani emergenti. Il suo obiettivo principale è quello di offrire ad appassionati di musica ascolti e alternativi, e di permettergli di scoprire e supportare i talenti creativi della loro zona. Ciò è possibile per mezzo di una mappa interattiva, che permette di selezionare le varie regioni d’Italia e scoprirne gli artisti. Il sito offre anche diverse playlist classificate per genere che racchiudono i pezzi migliori di ciascun artista. 
+                           </p>
+                           <h2 class="card-text mb-5 mr-4 ml-4">Project Management Plan</h2>
+                           <h3 class="card-text mb-5 mr-4 ml-4">1. Benchmarking</h3>
+                           <p class="card-text mb-5 mr-4 ml-4">
+                            1. Archivio Emergente nasce dall’idea di creare una piattaforma online che funga da archivio per artisti emergenti italiani. Lo scopo del progetto è far conoscere all’user nuova musica e permettergli di scoprire e supportare gli artisti della sua zona.
+                        </p>
+                           <p class="card-text mb-5 mr-4 ml-4"> 2. Il target principale è costituito da giovani appassionati di musica e curiosi di approfondire le proprie conoscenze musicali, quindi in grado di apprezzare la creatività degli artisti emergenti (e non solo la musica più mainstream e le hit del momento).</p>
+                            <p class="card-text mb-5 mr-4 ml-4"> 3. I competitor sono essenzialmente due: Bandcamp e Spotify. Bandcamp è una community basata sulla musica ma, prima di tutto, un negozio di dischi online. Uno degli obiettivi che si prefigge è quello di mettere a disposizione dell’utente numerosi brani di artisti emergenti, ma quello principale è sicuramente offrire agli artisti un supporto di tipo economico da parte dei fan. Spotify, invece, si può considerare 
+competitor in quanto dà visibilità agli artisti emergenti attraverso playlist (temporanee).</p>
+                           </p>
+
+                           <h3 class="card-text mb-5 mr-4 ml-4">2. Struttura e layout</h3>
+                           <p class="card-text mb-5 mr-4 ml-4">
+                            La homepage del sito contiene al suo interno le sezioni principali (“Scopri”, “Playlist” e “Contatti”). Altre sezioni, sullo stesso piano di quelle nella home (“Su di noi”, “Crediti”, “Documentazione”) possono essere raggiunte dal menù. La sezione “Scopri” si suddivide in venti sotto-pagine, una per ogni regione d’Italia. 
+                        </p>
+                       <div class="card-body d-flex flex-column align-items-center"><img id="albero" src="img/albero.png" alt="none"></div>
+                       <div id="wireframe" class="card-body d-flex align-items-center">
+                        <img id="wireframehome" src="img/wireframehome.png" alt="none">
+                       <img id="wireframeregione" src="img/wireframeregione.png" alt="none">
+                    </div>
+                           <p class="card-text mb-5 mr-4 ml-4"> Le scelte stilistiche si sono focalizzate su una palette minimale di colori (nero, bianco e viola ametista) per adattarsi a ogni tipo di artista, e al contempo trasmettere un look un po’ “indie” e “alternativo” (per ascoltatori “di nicchia”). Il font scelto per i titoli è “Schoolbell”, che trasmette l’effetto di una scrittura a mano, un po’ naïf; il font per il testo è “Hanuman” (serif), più semplice rispetto a “Schoolbell”. Tutte le pagine delle regioni hanno un’immagine diversa di copertina (rigorosamente in bianco e nero e con l’aggiunta di grana): ogni immagine vuole rappresentare uno scorcio evocativo della regione di riferimento, distaccandosi un po’ dalle tipiche foto usate a scopo turistico. 
+                        </p>
+
+                        <h3 class="card-text mb-5 mr-4 ml-4">3. Linguaggi e strumenti</h3>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                         I linguaggi web utilizzati per la realizzazione del sito sono: HTML, CSS, Javascript. <p>
+                        <p id="strumenti" class="card-text mb-5 mr-4 ml-4">
+                            Nella realizzazione, ho utilizzato i seguenti strumenti:
+                            Bootstrap, per l’inserimento di stringhe di codice e per il footer ;
+                            FontAwesome, per l’inserimento di icone;
+                            Google Fonts, per l’inserimento di font specifici;
+                            Google Analytics, per il monitoraggio delle visite;
+                            CodePen, per l’inserimento della cartina geografica interattiva;
+                            Canva, per la realizzazione di rappresentazione grafica, logo e wireframe;
+                            Unsplash, per la ricerca delle immagini;
+                            PhotoRoom, per la realizzazione dell’immagine nella sezione “Su di noi”;
+                            Adobe Lightroom, per la modifica delle immagini;
+                            Adobe Photoshop, per la modifica delle immagini.
+                        </p>
+                        <h2 class="card-text mb-5 mr-4 ml-4">Communication Strategy</h2>
+                        <h3 class="card-text mb-5 mr-4 ml-4">1. Background</h3>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Per prendere delle scelte in termini di progettazione, ho innanzitutto esaminato i competitors. 
+                            Per la ricerca degli artisti, Bandcamp offre diversi criteri di selezione: genere musicale, sotto-genere, “tipo” di artista (best-selling, nuovi arrivi, consigliati), location (principalmente USA e altri luoghi culturalmente significativi del resto del mondo), formato del brano (digitale, vinile, compact disc, cassetta). Bandcamp mostra, come risultati, direttamente le canzoni dell’artista. Da lì è possibile consultare una scheda singola per ogni artista, che racchiude contatti, musica rilasciata, eventualmente una bio. Ci sono anche brani consigliati a partire dall’artista selezionato. 
+                            Nonostante l’ampia gamma di servizi che offre e la completezza delle informazioni fornite da Bandcamp, la ricerca per filtri appare poco intuitiva: la ricerca per territorio sembra subito limitata, in quanto sono presenti inizialmente solo alcune località selezionabili (prettamente americane o grandi città europee e del resto del mondo). Se si approfondisce la ricerca per filtro, si potrà tentare con una ricerca per tag: i tag geografici sono più numerosi, e permettono di arrivare alla pagina di artisti che, volutamente, hanno inserito quel determinato tag nel proprio profilo personale. 
+                            Dunque, i punti più deboli di Bandcamp sono la sua ricerca per filtri poco intuitiva e il suo essere un po’ "US-centered".  
+                        </p>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            In Spotify, invece, manca un catalogo di artisti emergenti e la possibilità di filtrarli attraverso criteri specifici.        
+                        </p>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Non esiste, attualmente, una piattaforma che si concentri esclusivamente sul territorio italiano: per questo, su siti come Bandcamp, gli artisti emergenti italiani rischiano di passare inosservati. 
+
+                        </p>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Sulla base di quanto osservato, ho deciso di strutturare 
+                            Archivio Emergente attorno al focus del filtro territoriale: è possibile infatti selezionare una regione d’Italia e scoprirne i relativi artisti. Strutturato l’archivio secondo un ordine di tipo geografico, ho poi deciso di recuperare il punto forte di Spotify incorporando playlist degli artisti nella mia home-page. Le playlist sono classificate secondo il genere musicale. Ho deciso di lasciare la classificazione per genere in secondo piano sia per dedicarmi completamente a quella per territorio, sia perché molti artisti faticano a identificarsi in un solo genere musicale.   
+                        </p>
+
+                        <h3 class="card-text mb-5 mr-4 ml-4">2. Obiettivi comunicativi</h3>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Gli obiettivi comunicativi stabiliti sono i seguenti: almeno 50 follower sul profilo Instagram dedicato; almeno 20 like ad un post. 
+
+                        </p>
+
+                        <h3 class="card-text mb-5 mr-4 ml-4">3. Target audience</h3>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Il target principale del sito è costituito da giovani appassionati di musica che non siano ascoltatori superficiali, ossia che non si dedichino solamente all’ascolto di musica mainstream o delle top hit, e che quindi possano risultare interessati anche alla musica di artisti meno conosciuti, più “di nicchia”.
+
+                        </p>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Gli appassionati di musica sono probabilmente più propensi a visitare siti web dedicati, magari per arricchire il proprio bagaglio culturale relativo alla musica: è normale dedicare più tempo a quella che può essere identificata come una passione, e non come un’attività svolta superficialmente. Per questo il sito si sviluppa in modo che ogni artista abbia una card a sé dedicata, provvista di una bio (non troppo lunga, per mantenere l’attenzione dell’utente, ma sufficientemente lunga per fornire un’anticipazione accattivante). 
+
+                        </p>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Nonostante la propensione ad approfondire, Instagram può rivelarsi, a mio avviso, un ottimo metodo per raggiungere il target desiderato. Instagram è infatti una piattaforma popolare, che permette di raggiungere profili di ogni tipo; inoltre, su Instagram sono presenti molte pagine a tema “Intrattenimento e cultura”, fra cui molti “magazine” a tema musicale. 
+
+                        </p>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Il  target secondario è invece costituito dagli artisti stessi. Infatti, uno degli obiettivi di Archivio Emergente è quello di dare la giusta visibilità ai creativi d’Italia, e di creare vicinanza tra artisti e ascoltatori della stessa zona. 
+
+                        </p>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Anche per quanto riguarda il target secondario, Instagram può rivelarsi efficace dal punto di vista comunicativo. Numerosi artisti hanno un profilo Instagram e, più in generale, Instagram è una piattaforma abitata dai creativi, che hanno modo di pubblicare e condividere la propria arte. 
+
+                        </p>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            
+                        </p>
+
+                        <h3 class="card-text mb-5 mr-4 ml-4">4. Promozione</h3>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Per i motivi sopraelencati, ho deciso di promuovere il sito principalmente attraverso Instagram: più in particolare, attraverso la creazione di una pagina che offra, nei post, una versione sintetica delle descrizioni degli artisti presenti nel sito; il tutto riprendendo le stesse scelte estetiche. Un altro motivo che mi ha spinto a scegliere Instagram come mezzo principale è stato l’appoggio fornitomi dagli artisti stessi, che entusiasti del progetto si sono mostrati molto collaborativi e propensi a supportare. 
+
+                        </p>
+
+                        <h3 class="card-text mb-5 mr-4 ml-4">5. Valutazione dei risultati</h3>
+                        <p class="card-text mb-5 mr-4 ml-4">
+                            Posso dire che il progetto ha raggiunto i suoi obiettivi, in quanto la pagina Instagram creata ha guadagnato in poco tempo follower appartenenti al target audience desiderato. In particolare, sono stati raggiunti almeno 50 follower e tutti i post hanno ottenuto più di 20 like. 
+                        </p>
+                        <div class="card-body d-flex flex-column align-items-center" >
+                            <img id="screeninsta" src="img/screeninsta.jpg" alt="none"></div>
+                          <div class="card-body d-flex flex-column align-items-center"> <img id="screenpost" src="img/screenpost.jpg" alt="none">
+                        </div>
+
+
+
+                         </div>
+                       
+                     </div>
+                   </div>
+                 </div>
+               </div>
+             </div>
+            </div>
+           </section>
+    
+
+
+
+
+    <footer class="text-center text-white" style="background-color: #000000">
+        <!-- Grid container -->
+        <div class="container">
+          <!-- Section: Links -->
+          <div class="mt-5">
+            <!-- Grid row-->
+            <div class="row text-center d-flex justify-content-center pt-5">
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="index.html" class="text-white">Home</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="index.html#scopri" class="text-white">Scopri</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="index.html#playlist" class="text-white">Playlist</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="index.html#contatti" class="text-white">Contatti</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+    
+              <!-- Grid column -->
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="aboutus.html" class="text-white">Su di noi</a>
+                </h6>
+              </div>
+
+              <div class="col-md-2">
+                <h6 class="text-uppercase font-weight-bold">
+                  <a href="crediti.html" class="text-white">Crediti</a>
+                </h6>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row-->
+          </div>
+          <!-- Section: Links -->
+    
+          <hr class="my-5" />
+    
+          <!-- Section: Text -->
+          <div class="mb-5">
+            <div class="row d-flex justify-content-center">
+              <div class="col-lg-8">
+                <p id="frasefooter">
+                  Valorizzare gli artisti emergenti significa dare voce alla loro creatività, permettendo a idee originali e visioni innovative di fiorire. Unisciti alla nostra missione di celebrare l’arte e l’innovazione nel mondo della musica, ed esplora nuovi orizzonti musicali. 
+
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Section: Text -->
+    
+          <!-- Section: Social -->
+          <div class="text-center mb-5">
+           
+            <a href="https://www.instagram.com/archivioemergente/" class="text-white me-4">
+              <i class="fab fa-instagram"></i>
+            </a>
+           
+          </div>
+          <!-- Section: Social -->
+        </div> <br>
+        <!-- Grid container -->
+    
+        
+      </footer>
+  
+      <!-- Footer -->
+   
+    <!-- End of .container -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+             
+</body>
+</html>
